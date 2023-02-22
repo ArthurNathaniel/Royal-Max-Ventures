@@ -1,0 +1,114 @@
+.who-we-are {
+    padding: 0 5%;
+    margin-top: 50px;
+}
+
+.who-we-are h1 {
+    font-family: 'Gloock', serif;
+}
+
+.who-we-are h5 {
+    text-transform: uppercase;
+}
+
+.who-we-are-wrapper {
+    padding: 0 5%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 30px;
+}
+
+.who-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    padding-right: 10%;
+}
+
+.who-text h1 {
+    width: 100%;
+    font-family: 'Gloock', serif;
+    text-transform: uppercase;
+}
+
+.who-text h4{
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+h1{
+    color: #65b3ff;
+ }
+.who-image {
+    width: 100%;
+}
+
+.who-image img {
+    width: 100%;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+.vision {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0 5%;
+
+}
+
+.vision-image {
+    width: 100%;
+}
+
+.vision-image img {
+    width: 100%;
+}
+
+.vision-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    padding-left: 10%;
+}
+
+.vision-text h1 {
+    width: 100%;
+    font-family: 'Gloock', serif;
+}
+.contact-flex{
+    display: flex;
+   
+}
+.one{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.one h2{
+    font-family: 'Gloock', serif;
+}
+
+.one li {
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+}
+
+.one li a{
+    text-decoration: none;
+    color: #000;
+}
+
+@media only screen and (max-width: 900px) {
+    .who-we-are-wrapper{
+        display: block;
+    }
+}

@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden !important;
+    font-family: 'Rubik', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    background-color: #65b3ff;
+    text-align: center;
+    padding: 0 5%;
+    color: #383838;
+}
+
+.address {
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+}
+
+.address a {
+    color: #383838;
+    text-decoration: none;
+}
+
+.email {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.email a {
+    color: #383838;
+    text-decoration: none;
+}
+
+.own-nav {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 0 5%;
+    background-color: #fff;
+    /* text-transform: uppercase; */
+}
+
+.own-menu {
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 500;
+
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-bottom: 2px solid #eee;
+}
+
+/* .own-menu li a:hover{
+    font-weight: 900;
+} */
+.experience {
+    margin-top: 50px;
+    width: 100%;
+    padding: 0 5%;
+    text-align: center;
+}
+
+.experience h1 {
+    font-family: 'Gloock', serif;
+
+}
+
+.experience p {
+    font-family: 'Rubik', sans-serif;
+}
+
+.three {
+    /* background-color: #f9f9ff; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border: none;
+}
+
+.three:hover {
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+/* .three img{
+   width: 100%;
+   height: 100%;
+} */
+.type {
+    padding: 0 5%;
+    /* margin-top: 20px; */
+}
+
+.test p {
+    font-family: 'Rubik', sans-serif;
+    border: 2px solid;
+}
+
+.solutions {
+    padding: 0 5%;
+    margin-top: 50px;
+}
+
+.solutions h1 {
+    font-family: 'Gloock', serif;
+
+}
+
+.solutions-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex- {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-brands {
+    margin-top: 50px;
+    padding: 0 5%;
+}
+
+.swiper2 {
+    width: 30%;
+    height: 30%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* overflow-x: hidden; */
+}
+
+.swiper2 img {
+
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.our-product h1 {
+    font-family: 'Gloock', serif;
+}
+
+.map- {
+    background-color: #eee;
+}
+
+.co {
+    text-align: center;
+    font-family: 'Gloock', serif;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 15%;
+    margin-block: 30px;
+}
+
+.contact-info h3 {
+    font-family: 'Gloock', serif;
+
+}
+
+
+
+.footer-bg {
+    background-color: rgb(96, 96, 96);
+    color: #fff;
+    text-decoration: none;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.footer-bg li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 30px;
+}
+
+.footer-wrapper {
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.btn {
+    background-color: #65b3ff;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #65b3ff;
+}
+
+
+
+.nat img {
+    background-color: #eee;
+    border: 2px solid;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.gap {
+    margin-top: 50px;
+    padding: 0 5%;
+}
+
+.card- img {
+    width: 100%;
+    height: 300px;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button a:hover {
+    color: #eee;
+}
+.whole{
+    overflow: hidden;
+}
+@media only screen and (max-width: 900px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
+    header {
+        display: none;
+
+    }
+/* .swiper2{
+    overflow-x: hidden !important;
+} */
+    .contact-info {
+        display: block;
+    }
+
+    .address {
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .email {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .co {
+        text-align: left;
+        padding: 0 15%;
+    }
+
+    .vision {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .vision h1 {
+        width: 100%;
+        margin-right: 20%;
+        margin-top: 25px;
+    }
+
+    .vision p {
+        width: 100%;
+        margin-right: 20%;
+    }
+
+    .contact-flex {
+        display: block;
+    }
+}
